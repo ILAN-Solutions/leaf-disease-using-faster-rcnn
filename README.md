@@ -2,7 +2,7 @@
 
 Faster R-CNN was first introduced in 2015 and is also a part of R-CNN family. Compared to its predecessor, Faster R-CNN proposes a novel Region Proposals Network (RPN) and provides better performance and computational efficiency. The whole algorithm can be summarized by merging a RPN (region proposal algorithm) and Fast R-CNN (detection network) into a single network by sharing their convolution features. The paper states that by sharing convolutions at test-times, the cost of computing proposals is as small as 10ms per image.
 <p align="center">
-  <img src="https://github.com/amrithc/test/blob/master/imgs/img0.png">
+  <img src="https://github.com/ILAN-Solutions/leaf-disease-using-faster-rcnn/blob/master/imgs/img0.png">
 </p>
 <p align="center"> Figure 1: Faster R-CNN Architecture. </p>
 
@@ -18,7 +18,7 @@ Now, a 3 x 3 convolution with 512 units is applied to the backbone feature map a
 
 The classifier layer is used to give probabilities of whether or not each point in the backbone feature map (size: H x W) contains an object within all 9 of the anchors at that point. So, it has 2k scores.
 
-![](https://github.com/amrithc/test/blob/master/imgs/img1.png)
+![](https://github.com/ILAN-Solutions/leaf-disease-using-faster-rcnn/blob/master/imgs/img1.png)
 
 <p align = "center">Figure 2: Region Proposal Network (RPN).</p>
 
