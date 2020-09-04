@@ -54,9 +54,9 @@ Finally,using the new RPN, the Fast R-CNN detector is fine-tuned. Again, only th
 
 Clone the github repository:
 
-`$git clone`
+`$git clone https://github.com/ILAN-Solutions/leaf-disease-using-faster-rcnn.git`
 
-`$cd`
+`$cd leaf-disease-using-faster-rcnn`
 
 And install the packages required using,
 
