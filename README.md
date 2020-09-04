@@ -64,7 +64,7 @@ And install the packages required using,
 
 **Data Pre-processing:**
 
-The (Dataset)[https://public.roboflow.com/object-detection/plantdoc/1] has both image and its respective annotated xml files. So the following code generates a data text document in the format &quot;img\_location, x1, x2, y1, y2, class&quot; where &quot;img\_location&quot; is the location of the image in the directory, &quot;x1, y1&quot; are x-min and y-min coordinates of the bounding box respectively, &quot;x2, y2&quot; are x-max and y-max coordinates respectively and class is the name of the class the object belongs to.
+The [Dataset](https://public.roboflow.com/object-detection/plantdoc/1) has both image and its respective annotated xml files. So the following code generates a data text document in the format &quot;img\_location, x1, x2, y1, y2, class&quot; where &quot;img\_location&quot; is the location of the image in the directory, &quot;x1, y1&quot; are x-min and y-min coordinates of the bounding box respectively, &quot;x2, y2&quot; are x-max and y-max coordinates respectively and class is the name of the class the object belongs to.
 
 Run the python script named &quot;data\_preprop.py&quot; by copying your images and its respective xml files in the &quot;train&quot; folder.
 
